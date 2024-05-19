@@ -1,7 +1,7 @@
 # api-graphQL
 
 ## 概要
-GraphQLを使ってAPIを作成する
+GraphQL学習のために作成したリポジトリです。
 
 ##　使用したもの
 Vite + React（TypeScript） + GraphQL + Apollo Client + Apollo Server（JavaScript）
