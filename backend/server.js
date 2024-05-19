@@ -75,8 +75,10 @@ const books = [ // 本の情報を配列で定義
 // booksの配列を返す
 const typeDefs = gql`
     type Book {
+        id: Int
         title: String
         author: String
+        publishedYear: Int
     }
 
     type Query {
