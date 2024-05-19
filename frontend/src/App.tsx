@@ -36,7 +36,7 @@ function Books() {
       <ul>
         {data.test.map((book) => (
           <li key={book.id}>
-            {book.title} by {book.author} ({book.publishedYear})
+            『{book.title}』 by {book.author} ({book.publishedYear})
           </li>
         ))}
       </ul>
